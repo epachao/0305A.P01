@@ -18,8 +18,8 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int gradosfa = Convert.ToInt32(fahrenheit.Text);
-            int result;
+            double gradosfa = Convert.ToDouble(fahrenheit.Text);
+            double result;
 
             result = (((gradosfa - 32) * 5 )/ 9);
             rpta.Text = Convert.ToString(result);

@@ -53,8 +53,8 @@ namespace Calculadora
 
         private void botond_Click(object sender, EventArgs e)
         {
-            int numero1 = Convert.ToInt32(n1.Text);
-            int numero2 = Convert.ToInt32(n2.Text);
+            double numero1 = Convert.ToDouble(n1.Text);          
+            double numero2 = Convert.ToDouble(n2.Text);
             double respuesta;
             if (numero2 == 0)
             {
